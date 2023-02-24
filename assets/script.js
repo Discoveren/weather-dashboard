@@ -1,6 +1,6 @@
 /* GLOBAL VARIABLES */
 // Fill city array with whats in local storage or give me an empty array
-const cities = JSON.parse(localStorage.getItem(cities)) || [];
+const cities = JSON.parse(localStorage.getItem('cities')) || [];
 const lastCity = localStorage.getItem('lastCity');
 // Reference your API key. The API  is your unique id associated with your OpenWeatherMap account
 const apiKey = `be1c4197e685d2ef51ea797c1a5447f4`;
